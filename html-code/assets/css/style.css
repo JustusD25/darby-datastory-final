@@ -1,0 +1,67 @@
+main {
+  display: grid;
+  grid-gap: 15px;
+}
+
+body {
+  margin: 0
+}
+
+p {
+  font-size: 16px;
+  text-align:center;
+  vertical-align: middle;
+  font-family: "Montserrat Light"
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+
+h4 {
+  font-size: 13px
+}
+/*  <!-- Grid, Containers,Items-->  */
+
+.div-container {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.grid-item-footer{
+  padding: 5px;
+  text-align: center;
+  font-family: "Montserrat"
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column: 1/3;
+  padding-bottom: 50px
+}
+.margin {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+ /* <!-- Media -->   */
+
+img {
+  width: 76%;
+}
+
+iframe {
+  object-position: center;
+  min-height: 300px;
+  width: 100%;
+  width: 600px;
+  padding-top: 45px
+}
+
+.data-video {
+  grid-column: 1/3;
+}
